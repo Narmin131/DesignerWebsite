@@ -1,0 +1,107 @@
+@media (max-width: 575.98px) { 
+    .video-sec{
+    h1{
+        font-size: 1.4rem !important;
+     }
+     p{
+       font-size: .8rem !important;
+       line-height: 1.2 !important;
+     }
+     i{
+       font-size: 1rem !important;
+       margin-top: 1rem !important;
+     }
+    }
+   
+     footer{
+         height: 30vh !important;
+        p{
+            line-height: 1.2 !important;
+            font-size: .8rem !important;
+          }
+          h1{
+            font-size:.8rem !important;
+          }
+     }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width:576px) and (max-width: 767.98px) { 
+    .video-sec{
+        h1{
+            font-size: 1.6rem !important;
+         }
+         p{
+           font-size: 1rem !important;
+           line-height: 1.3 !important;
+         }
+         i{
+           font-size: 1.1rem !important;
+           margin-top: 1.2rem !important;
+         }
+        }
+       
+         footer{
+            p{
+                line-height: 1.2 !important;
+                font-size: 1rem !important;
+              }
+              h1{
+                font-size:1rem !important;
+              }
+         }
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (min-width:768px) and (max-width: 991.98px) { 
+    .video-sec{
+        h1{
+            font-size: 2.2rem !important;
+         }
+         p{
+           font-size: 1.6rem !important;
+           line-height: 1.5 !important;
+         }
+         i{
+           font-size: 1.6rem !important;
+           margin-top: 1.5rem !important;
+         }
+        }
+       
+         footer{
+            p{
+                line-height: 1.2 !important;
+                font-size: 1.1rem !important;
+              }
+              h1{
+                font-size:1.1rem !important;
+              }
+         }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (min-width:992px) and (max-width: 1199.98px) { 
+    .video-sec{
+        h1{
+            font-size: 3.3rem !important;
+         }
+         p{
+           font-size: 1.4rem !important;
+           line-height: 1.6 !important;
+         }
+         i{
+           font-size: 1.8rem !important;
+           margin-top: 1.4rem !important;
+         }
+        }
+       
+         footer{
+            p{
+                line-height: 1.4 !important;
+                font-size: 2rem !important;
+              }
+              h1{
+                font-size:2rem !important;
+              }
+         }
+ }

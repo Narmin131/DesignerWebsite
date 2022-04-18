@@ -1,15 +1,216 @@
 @import "reset";
+@import "media";
+// Hero section
 .video-sec{
   height: auto;
+  position: relative;
+ 
   .video-div{
     width: 100%;
       height: 100%;
+      .text{
+        width: auto;
+        height: auto;
+        position: absolute;
+        transform: translate(-50%,-10%);
+        left: 50%;
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+           color: white;
+           font-size: 4.2rem;
+           font-family: 'Raleway', sans-serif;
+           font-weight: bold;
+          
+           text-align: center;
+        }
+        p{
+          color: white;
+          font-size: 1.4rem;
+          font-family: 'Poppins', sans-serif;
+           line-height:2;
+           text-align: center;
+        }
+        i{
+          color: white;
+          font-size: 2rem;
+          cursor: pointer;
+          margin-top: 1.7rem;
+        }
+      }
+
     video{
       width: 100%;
       height: 100%;
+      filter: blur(.3px) brightness(0.6);
+      
     }
   }
 }
 
 
+// Header
+header{
+  width: 100%;
+  height: 18vh;
+  .left-item{
+    display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      h1{
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      .icons{
+        i{
+          margin-left: 1rem;
+          font-size: 1.1rem;
+        }
+      }
+  }
+  .right-item{
+     display:flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    ul{
+      width: 50%;
+      height: 100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      li{
+        list-style-type: none;
+        a{
+          color: black;
+          text-decoration: none;
+          font-size: 1.3rem;
+          font-weight: 200;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+      }
+    }
+  }
+}
+
+// Collection section
+
+.collection{
+  height: auto;
+  .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 40px 60px 40px;
+    cursor: pointer;
+    .img1{
+      position: relative;
+      transition: all .5s;
+      &::before{
+        position: absolute;
+        transition: all .5s ease;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0;
+        visibility: hidden;
+        cursor: pointer;
+        transform: scale(0);
+      }
+     
+    }
+       &:hover {
+        :before,h1{
+          opacity: 1;
+          visibility: visible;
+          transform: scale(1);
+       }
+      }
+      
+      h1{
+        position: absolute;
+        z-index: 2398;
+        transition: all .4s;
+        color: white;
+        opacity: 0;
+        visibility: hidden;
+        font-weight: bold;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        transform: scale(0);
+        font-family: sans-serif;
+      }
+      
+  }
+}
+
+
+// Footer
+footer{
+  height: 40vh;
+  font-family: 'Poppins', sans-serif;
+  border-top: 1px solid #ccc;
+  font-weight: 300;
+  .text-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    p{
+      color: black;
+      font-size:1.3rem;
+      line-height: 1.9;
+      a{
+        color: black;
+
+      }
+    }
+
+  }
+  .right-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h1{
+      font-size:1.4rem;
+    }
+  }
+}
+
+
+
+// Animated h1
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
 
