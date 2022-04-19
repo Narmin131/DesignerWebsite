@@ -1,0 +1,105 @@
+@media (max-width: 575.98px) {  
+     footer{
+         height: 30vh !important;
+        p{
+            line-height: 1.2 !important;
+            font-size: .8rem !important;
+          }
+          h1{
+            font-size:.8rem !important;
+          }
+     }
+     .text-left2{
+         display: flex;
+         flex-direction: column !important;
+         justify-content: center !important;
+         align-items: center !important;
+         h1{
+          font-size: 2rem !important;
+         }
+         p{
+           font-size: 1.2rem !important;
+         }
+        }
+        .img{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+          }
+     .text-right{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        h1{
+            font-size: 2rem !important;
+            font-weight: 600 !important;
+           }
+           p{
+             font-size: 1.2rem !important;
+           }
+     }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width:576px) and (max-width: 767.98px) { 
+         footer{
+            p{
+                line-height: 1.2 !important;
+                font-size: 1rem !important;
+              }
+              h1{
+                font-size:1rem !important;
+              }
+         }
+         .text-left2{
+            h1{
+             font-size: 2rem !important;
+            }
+            p{
+              font-size: 1rem !important;
+              line-height: 1 !important;
+            }
+           }
+        .text-right{
+           h1{
+               font-size: 2rem !important;
+               font-weight: 600 !important;
+              }
+              p{
+                font-size: 1rem !important;
+                line-height: 1 !important;
+              }
+        }
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (min-width:768px) and (max-width: 991.98px) { 
+       
+         footer{
+            p{
+                line-height: 1.2 !important;
+                font-size: 1.1rem !important;
+              }
+              h1{
+                font-size:1.1rem !important;
+              }
+         }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (min-width:992px) and (max-width: 1199.98px) {    
+         footer{
+            p{
+                line-height: 1.4 !important;
+                font-size: 2rem !important;
+              }
+              h1{
+                font-size:2rem !important;
+              }
+         }
+
+ }
